@@ -11,18 +11,18 @@ KLE layout
 
 const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] =
-    KEYMAP(GRV ,  1   , 2   , 3   , 4        , 5       , 6     , 7    , 8   , 9   , 0   , MINS, EQL , GRV , BSPC, \
-           TAB ,  Q   , W   , E   , R        , T       , Y     , U    , I   , O   , P   , LBRC, RBRC, BSLS, NO, \
-           LCTL,  A   , S   , D   , F        , G       , H     , J    , K   , L   , SCLN, QUOT, NO  , ENT , NO, \
-           LSFT,  Z   , X   , C   , V        , B       , N     , M    , COMM, DOT , SLSH, NO  , UP  , RSFT, NO, \
-           FN0 ,  LALT, LGUI, NO  , NO       , SPC     , NO    , NO   , NO  , RGUI, LEFT, NO  , DOWN, RGHT, NO),
+    KEYMAP(GRV ,  1   , 2   , 3   , 4       , 5     , 6     , 7   , 8   , 9   , 0   , MINS, EQL , GRV , BSPC, \
+           TAB ,  Q   , W   , E   , R       , T     , Y     , U   , I   , O   , P   , LBRC, RBRC, BSLS, NO, \
+           LCTL,  A   , S   , D   , F       , G     , H     , J   , K   , L   , SCLN, QUOT, NO  , ENT , NO, \
+           LSFT,  Z   , X   , C   , V       , B     , N     , M   , COMM, DOT , SLSH, NO  , UP  , RSFT, NO, \
+           FN0 ,  LALT, LGUI, NO  , NO      , SPC   , NO    , NO  , NO  , RGUI, LEFT, NO  , DOWN, RGHT, NO),
 
     [1] =
-    KEYMAP(ESC , F1   , F2  , F3  , F4       , F5      , F6    , F7   , F8  , F9  , F10 , F11 , F12 , F13 , DEL , \
-           TRNS, TRNS , TRNS, TRNS, TRNS     , TRNS    , TRNS  , TRNS , TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, \
-           TRNS, TRNS , TRNS, TRNS, TRNS     , TRNS    , TRNS  , TRNS , TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, \
-           TRNS, MPRV , MPLY, MNXT, _VOLDOWN , _VOLUP  , _MUTE , TRNS , TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, \
-           TRNS, TRNS , TRNS, TRNS, TRNS     , TRNS    , TRNS  , TRNS , TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS),
+    KEYMAP(ESC , F1   , F2  , F3  , F4      , F5    , F6    , F7  , F8  , F9  , F10 , F11 , F12 , F13 , DEL , \
+           CAPS, TRNS , TRNS, TRNS, BSPC    , HOME  , PGUP  , PSCR, SLCK, PAUS, TRNS, TRNS, TRNS, TRNS, TRNS, \
+           TRNS, TRNS , TRNS, TRNS, DEL     , END   , PGDOWN, TRNS, INS , TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, \
+           TRNS, MPRV , MPLY, MNXT, _VOLDOWN, _VOLUP, _MUTE , TRNS, TRNS, TRNS, WAKE, TRNS, TRNS, TRNS, TRNS, \
+           TRNS, TRNS , TRNS, TRNS, TRNS    , TRNS  , TRNS  , TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS),
 };
 
 const uint16_t PROGMEM fn_actions[] = {
